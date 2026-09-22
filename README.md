@@ -30,7 +30,6 @@ VITE_API_KEY= clave
 \`\`\`
 
 ## URLS
-
-https://paises-explorador.vercel.app/
-https://github.com/KarlaJazmin123/examen-paises.git
+https://paises-steel.vercel.app/,
+https://github.com/KarlaJazmin123/Paises.git
 
