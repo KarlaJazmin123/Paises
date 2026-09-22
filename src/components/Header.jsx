@@ -14,7 +14,7 @@ function Header({ busqueda, onBusquedaChange, region, onRegionChange }) {
                     className="buscador"
                 />
 
-                //lista desplegable de regiones
+                
 
                 <select
                 value={region} //Indica cuál es la región actualmente seleccionada.
