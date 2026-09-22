@@ -1,5 +1,6 @@
 function Header({ busqueda, onBusquedaChange, region, onRegionChange }) {
     return (
+        /*contenedor principal del encabezado. */
         <header className="header">
             <h1>Explorador de Países</h1>
             <p>Descubre datos de países de todo el mundo</p>
@@ -8,13 +9,15 @@ function Header({ busqueda, onBusquedaChange, region, onRegionChange }) {
                 <input
                     type="text"
                     placeholder="Buscar país por nombre..."
-                    value={busqueda}
+                    value={busqueda} 
                     onChange={(e) => onBusquedaChange(e.target.value)}
                     className="buscador"
                 />
 
+                /*lista desplegable de regiones */
+
                 <select
-                value={region}
+                value={region} //Indica cuál es la región actualmente seleccionada.
                 onChange={(e) => onRegionChange(e.target.value)}
                 className="filtro-region"
                 >
